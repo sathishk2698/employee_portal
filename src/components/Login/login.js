@@ -13,7 +13,7 @@ const Login=()=> {
           window.sessionStorage.setItem('userInfo', JSON.stringify(userInputs));
           navigate('/dashboard');
         }
-    },[userInputs]);
+    },[userInputs, navigate]);
 
     const onChangeHander = useCallback((e)=>{
         const value = e.target.value;

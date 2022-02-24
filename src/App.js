@@ -17,12 +17,12 @@ const App = () => {
     } else if (userInfo && path === "/") {
       return navigate("/dashboard");
     }
-  }, [userInfo, path]);
+  }, [userInfo, path, navigate]);
 
   const logoutHandler = useCallback(()=>{
     sessionStorage.clear();
     return navigate("/");
-  },[]);
+  },[navigate]);
 
   return (
     <div className="App">

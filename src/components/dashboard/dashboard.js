@@ -41,7 +41,7 @@ const Dashboard = () => {
 
   const viewMoreDetailsHandler = useCallback((id) => {
     navigate(`/employee-view/${id}`);
-  }, []);
+  }, [navigate]);
 
   const selectDeptHandler = useCallback((e) => {
     let value = e.target.value;

@@ -32,7 +32,7 @@ const EmployeeDetails = () => {
             userDetail.map((key) => {
               return (
                 <div key={key.emp_id}>
-                  <img src={key.emp_photo_path} alt={key.emp_name} />
+                  <img src={key.emp_photo_path} alt={key.emp_name} style={{width: '125px', height: '125px'}}/>
                   <p style={{ color: "green" }}>{key.emp_experience}</p>
                   <div className="employeeDetailContainer">
                     <div>
