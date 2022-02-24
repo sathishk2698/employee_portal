@@ -1,0 +1,30 @@
+.btnContainer {
+  text-align: left;
+  left: 13%;
+  top: 16px;
+  position: absolute;
+}
+
+.goBackBtn {
+  height: 50px;
+  width: 150px;
+  background: #002a57;
+  font-size: inherit;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.employeeContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  top: 100px;
+  padding: 5rem;
+}
+
+.employeeDetailContainer {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+

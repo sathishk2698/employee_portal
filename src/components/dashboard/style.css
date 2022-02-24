@@ -1,0 +1,26 @@
+.customMargin {
+  margin: 2rem;
+}
+
+.viewMoreBtn {
+  color: blue !important;
+}
+
+.experiencePara {
+  color: darkgreen;
+}
+
+.searchContainer {
+  width: 30%;
+  margin-bottom: 2rem !important;
+}
+
+h1 {
+  margin-left: 2rem;
+}
+
+.dashboardHeader {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

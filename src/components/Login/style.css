@@ -1,0 +1,18 @@
+.btnstyle {
+  margin: 1rem 0;
+}
+
+.avatarStyle {
+  background-color: #1bbd7e !important;
+}
+
+.paperStyle {
+  padding: 20px;
+  width: 280px;
+  margin: 20px auto;
+  transform: translateY(50%);
+}
+
+.loginInput {
+    margin-bottom: 2rem !important;
+}
